@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function addd() {
+        let im = document.createElement("img");
+        document.body.appendChild(im);
+        im.classList.add("img");
+        im.style.cssText = "width:20%";
+        fetch("test.json")
+          .then((response) => response.json())
+          .then((data) => {
+            document.querySelector(".img").src = data[0].img;
+          });
+      }
+      addd();
+    </script>
+  </body>
+</html>

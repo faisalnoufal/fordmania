@@ -1,0 +1,14 @@
+[
+  {
+    "fruit": "Apple",
+    "img": "https://invimg2.autofunds.net/InventoryImages/2021/10/23/3785_1867663_37987690_521623022021.jpg",
+    "size": "Large",
+    "color": "Red"
+  },
+  {
+    "fruit": "Orange",
+    "img": "https://invimg2.autofunds.net/InventoryImages/2021/10/23/3785_1867663_37987690_521623022021.jpg",
+    "size": "Small",
+    "color": "Orange"
+  }
+]
