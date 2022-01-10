@@ -13,10 +13,10 @@
         document.body.appendChild(im);
         im.classList.add("img");
         im.style.cssText = "width:20%";
-        fetch("test.json")
+        fetch("csvjson.json")
           .then((response) => response.json())
           .then((data) => {
-            document.querySelector(".img").src = data[0].img;
+            document.querySelector(".img").src = data[0].Make;
           });
       }
       addd();
